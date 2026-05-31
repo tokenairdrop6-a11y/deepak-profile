@@ -8,7 +8,7 @@ export function Skills({ isDark }: SkillsProps) {
   const skillCategories = [
     {
       title: 'Languages & Frameworks',
-      skills: ['C#', 'Python', '.NET Core', 'ASP.NET MVC', 'Web API', 'WPF', 'Angular 19', 'JavaScript', 'HTML5', 'CSS3', 'LINQ', 'DevExpress']
+      skills: ['C#', '.NET Core', 'ASP.NET MVC', 'Web API', 'WPF', 'Angular 19', 'JavaScript', 'HTML5', 'CSS3', 'LINQ', 'DevExpress']
     },
     {
       title: 'AI & Machine Learning',
