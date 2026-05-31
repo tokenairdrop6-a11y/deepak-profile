@@ -6,35 +6,104 @@ interface SkillsProps {
 
 export function Skills({ isDark }: SkillsProps) {
   const skillCategories = [
-    {
-      title: 'Languages & Frameworks',
-      skills: ['C#', '.NET Core', 'ASP.NET MVC', 'Web API', 'WPF', 'Angular 19', 'JavaScript', 'HTML5', 'CSS3', 'LINQ', 'DevExpress']
-    },
-    {
-      title: 'AI & Machine Learning',
-      skills: ['ML.NET', 'Semantic Search', 'Azure AI Search', 'RAG', 'LLM Integration', 'Predictive Modeling', 'AI Agents']
-    },
-    {
-      title: 'Database & ORM',
-      skills: ['SQL Server', 'Entity Framework', 'Dapper', 'XPO ORM', 'Azure Cosmos DB', 'Cloud SQL', 'Azure SQL']
-    },
-    {
-      title: 'Cloud & DevOps',
-      skills: ['Microsoft Azure', 'App Services', 'Blob Storage', 'Azure Functions', 'AKS', 'Azure Monitor', 'Application Insights', 'Google Cloud Platform', 'App Engine', 'GKE', 'Cloud Run', 'Docker', 'CI/CD', 'Azure DevOps', 'Kubernetes']
-    },
-    {
-      title: 'Architecture & Patterns',
-      skills: ['Microservices', 'RESTful APIs', 'Repository Pattern', 'Dependency Injection', 'Singleton Pattern', 'Clean Architecture', 'N-Tier Architecture', 'MVVM', 'MVC']
-    },
-    {
-      title: 'Messaging & Background Jobs',
-      skills: ['RabbitMQ', 'Hangfire', 'Azure Service Bus']
-    },
-    {
-      title: 'Testing & Tools',
-      skills: ['Postman', 'Swagger/OpenAPI', 'JMeter', 'Git', 'Azure DevOps Boards', 'Jira']
-    }
-  ];
+  {
+    title: 'Backend Development',
+    skills: [
+      'C#',
+      '.NET Core',
+      'ASP.NET MVC',
+      'Web API',
+      'LINQ',
+      'WPF'
+    ]
+  },
+  {
+    title: 'Frontend Development',
+    skills: [
+      'Angular 19',
+      'JavaScript',
+      'HTML5',
+      'CSS3'
+    ]
+  },
+  {
+    title: 'AI & Machine Learning',
+    skills: [
+      'ML.NET',
+      'Azure AI Search',
+      'Semantic Search',
+      'RAG',
+      'LLM Integration',
+      'AI Agents',
+      'Predictive Modeling'
+    ]
+  },
+  {
+    title: 'Databases & Data Access',
+    skills: [
+      'SQL Server',
+      'Azure SQL',
+      'Azure Cosmos DB',
+      'Entity Framework',
+      'Dapper',
+      'XPO ORM'
+    ]
+  },
+  {
+    title: 'Cloud & DevOps',
+    skills: [
+      'Microsoft Azure',
+      'Azure App Services',
+      'Azure Functions',
+      'Azure Blob Storage',
+      'Azure Monitor',
+      'Application Insights',
+      'Google Cloud Platform',
+      'App Engine',
+      'Cloud Run',
+      'Docker',
+      'Kubernetes',
+      'AKS',
+      'GKE',
+      'CI/CD',
+      'Azure DevOps'
+    ]
+  },
+  {
+    title: 'Architecture & Design Patterns',
+    skills: [
+      'Microservices',
+      'RESTful APIs',
+      'Clean Architecture',
+      'N-Tier Architecture',
+      'Repository Pattern',
+      'Dependency Injection',
+      'Singleton Pattern',
+      'MVC',
+      'MVVM'
+    ]
+  },
+  {
+    title: 'Messaging & Background Processing',
+    skills: [
+      'RabbitMQ',
+      'Azure Service Bus',
+      'Hangfire'
+    ]
+  },
+  {
+    title: 'Tools & Testing',
+    skills: [
+      'Git',
+      'Postman',
+      'Swagger/OpenAPI',
+      'JMeter',
+      'Jira',
+      'Azure DevOps Boards',
+      'DevExpress'
+    ]
+  }
+];
 
   const containerVariants = {
     hidden: { opacity: 0 },
